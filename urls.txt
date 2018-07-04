@@ -1,0 +1,8 @@
+post http://www.wmzy.com/account/saveEduInfo
+http://www.wmzy.com/api/school/getSchList?prov_filter=44&type_filter=0&diploma_filter=0&flag_filter=0&page=2&page_len=20&_=1529798214101
+http://www.wmzy.com/api/school/getSchList?prov_filter=shenzhen&type_filter=0&diploma_filter=0&flag_filter=0&page=2&page_len=20&_=1529798214101
+http://www.wmzy.com/api/school/3bzwryxx.html
+http://www.wmzy.com/static/outer/js/aq_auth.js
+http://cloud.tenxasdasdcent.com/deasdasdasdvelopera/aasdasdsk/asd42279/answer/63957
+http://node-img.b0.upaiyun.com/gaokao/tvpPlayer.html?vid=z0692bc6wkb&auto=1&title=AI时代·如何完美定制你的志愿填报
+absdad

@@ -1,0 +1,76 @@
+{
+	'option':{
+		'headers':{
+			'Cache-Control':'no-cache',
+			'Cookie':'sessionid=s:GjHEdyZNBbrK4yTtUTTiqInD.h0VxdjoB7CZBtzuOPPG74ahBvrklkvg1tbkRkwWRPwQ;path=/'
+		}
+	},
+	'urls':[
+			'http://192.168.1.251:4305/api/search/search.do?searchType=sch&searchKey=%E6%B8%85%E5%8D%8E',
+			{
+				'url':"http://www.wmzy.com/api/rank/schList",
+			},
+			{
+				'url':'GET http://www.wmzy.com/api/rank/schList?sch_rank_type=QS2018'
+			},
+			{
+				'method':'GET',
+				'url':"http://www.wmzy.com/api/rank/schList?sch_rank_type=XYH2018"
+			},
+			{
+				'method':'GET',
+				'url':"http://www.wmzy.com/api/school/getSchList?prov_filter=44&type_filter=0&diploma_filter=0&flag_filter=0&page=2&page_len=20&_=1529798214101"
+			},
+			
+			{
+				'method':'GET',
+				'url':"http://www.wmzy.com/api/school/3bzwryxx.html",
+				'headers':{
+					'X-Requested-With':'XMLHttpRequest'
+				}
+				
+			},
+			{
+				'method':'GET',
+				'url':"http://www.wmzy.com/static/outer/js/aq_auth.js",
+				"headers":{
+					'X-Requested-With':'XMLHttpRequest',
+					"referer":"http://www.wmzy.com/",
+					"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+				}
+			},
+			{
+				'method':'GET',
+				'url':"http://www.wmzy.com/account/info"
+			},
+			{
+				'method':'GET',
+				'url':"http://cloud.tenxasdasdcent.com/deasdasdasdvelopera/aasdasdsk/asd42279/answer/63957"
+			},
+			{
+				'method':'GET',
+				'url':"absdad"
+			},
+			
+			{
+				'method':'GET',
+				'url':'http://node-img.b0.upaiyun.com/gaokao/tvpPlayer.html?vid=z0692bc6wkb&auto=1&title=AI时代·如何完美定制你的志愿填报'
+			},
+			{
+				'method':'POST',
+				'url':"http://www.wmzy.com/account/saveEduInfo",
+				'data':{
+					'province_id': '320000000000',
+					'city_id': '321200000000',
+					'region_id': '321283000000',
+					'school_id': '5a9f64a8b97bd266633f28f9',
+					'enroll_year': 2017,
+					'enroll_type': 1
+				},
+				"headers":{
+					'X-Requested-With':'XMLHttpRequest'
+				}
+				
+			}
+		]
+}

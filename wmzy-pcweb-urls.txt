@@ -1,0 +1,55 @@
+{
+	'option':{
+		'headers':{
+			'Cache-Control':'no-cache',
+			'Cookie':'sessionid=s:7rn8WESdKKXcukeo03wQjTlw.QB7A4baInGRgBbS0BgqGf1Rz5TSwLlRc8MRyE6roeJ8;path=/'
+		}
+	},
+	'urls':[
+		'http://www.wmzy.com//index.html',
+		{
+			'method':'POST',
+			'url':"http://www.wmzy.com/account/getEduInfoUIConfig"
+		},
+		{
+			'method':'POST',
+			'url':"http://www.wmzy.com/account/saveEduInfo",
+			'data':{
+				'province_id': '320000000000',
+				'city_id': '321200000000',
+				'region_id': '321283000000',
+				'school_id': '5a9f64a8b97bd266633f28f9',
+				'enroll_year': 2017,
+				'enroll_type': 1
+			}
+			
+		},
+
+		{
+			'method':'POST',
+			'url':'http://www.wmzy.com/account/ajaxLogin',
+			"headers":{
+				'X-Requested-With':'XMLHttpRequest'
+			},
+			'data':{
+				'account':'13723761249',
+				'password':'123456',
+				'forceBindeCard':'false'
+			}
+		},
+		{
+			'method':'POST',
+			'url':'http://www.wmzy.com/zhiyuan/score',
+			"headers":{
+				'X-Requested-With':'XMLHttpRequest'
+			},
+			'data':{
+				'prov':44,
+				'realScore':500,
+				'ty':'l',
+				'diploma_id':7,
+				'score_form':'scoreBox'
+			}
+		}
+	]
+}

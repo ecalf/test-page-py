@@ -1,0 +1,12 @@
+https://mobile.wmzy.com/ zhiyuan/enrollProbabilityResult?provid=11&realScore=700&wl=1&sch_id=52ac2e9a747aec013fcf5190&batch=1&channel=sogou
+https://mobile.wmzy.com/zhiyuan/enrollProbability
+https://mobile.wmzy.com/zhiyuan/enrollProbabilitySample
+https://m.wmzy.com/app_download/index.html
+https://m.wmzy.com/zhiyuan/inputScore 
+https://m.wmzy.com/ zhiyuan/schoolRecommend?provid=34&realScore=567&wl=1&channel=sogou 
+https://m.wmzy.com/aid/enroll-notice
+https://m.wmzy.com/aid/publicize/schvideo
+https://m.wmzy.com/aid/usage/direction
+https://m.wmzy.com/aid/tencent/videoPlayer?vid=f0129nkiufu&auto=1&title=AI时代·如何完美定制你的志愿填报
+https://m.wmzy.com/aid/getAPKByChannel?channel=sogou
+https://m.wmzy.com/zhejiang-jiedu/dist/index
